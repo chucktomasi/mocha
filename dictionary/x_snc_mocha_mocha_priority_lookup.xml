@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="Mocha Priority Lookup" max_length="40" name="x_snc_mocha_mocha_priority_lookup" type="collection">
+        <element label="Button" max_length="32" name="button" reference="x_snc_mocha_button" type="reference"/>
+        <element label="Click count" max_length="40" name="click_count" type="integer"/>
+        <element choice="3" choice_field="priority" choice_table="x_snc_mocha_case" default="4" label="Priority" max_length="40" name="priority" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="button"/>
+        </index>
+    </element>
+</database>

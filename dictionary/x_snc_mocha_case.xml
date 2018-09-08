@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="Case" max_length="40" name="x_snc_mocha_case" type="collection">
         <element label="Button" max_length="32" name="button" reference="x_snc_mocha_button" type="reference"/>
-        <element default="0" label="Click count" max_length="40" name="click_count" type="integer"/>
+        <element default="1" label="Click count" max_length="40" name="click_count" type="integer"/>
         <element choice="1" label="Click type" max_length="40" name="click_type" type="choice">
             <choice/>
         </element>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_set">
+    <dl_definition_rel_set action="INSERT_OR_UPDATE">
+        <always_replace>true</always_replace>
+        <dl_definition display_value="Mocha Priority">332924bbdbd42300d236b6d1ba9619d9</dl_definition>
+        <matcher_table>x_snc_mocha_mocha_priority_lookup</matcher_table>
+        <matcher_table_field>priority</matcher_table_field>
+        <source_table>x_snc_mocha_case</source_table>
+        <source_table_field>priority</source_table_field>
+        <sys_class_name>dl_definition_rel_set</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-09-08 23:31:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e5c920fbdbd42300d236b6d1ba9619de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>priority</sys_name>
+        <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
+        <sys_update_name>dl_definition_rel_set_e5c920fbdbd42300d236b6d1ba9619de</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2018-09-08 23:46:06</sys_updated_on>
+    </dl_definition_rel_set>
+</record_update>

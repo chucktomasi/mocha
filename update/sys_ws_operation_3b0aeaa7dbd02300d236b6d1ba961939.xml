@@ -25,31 +25,49 @@
 	var voltStr = voltage.replace('mV', '');
 	var voltInt = parseInt(voltStr, 10);
 	var answer = {};
+	var httpStatusCode = 500;
+	var httpStatusBody = 'Server Error';
+	var mu = new Utils();
 
 	// Validate the button is registered
-	var button = new GlideRecord('x_snc_mocha_button');
+	var buttonGr = mu.getButtonFromSerialNumber(serial_number);
 
-	if (!button.get('serial_number', serial_number)) {
+	if (!buttonGr) {
 		gs.error('Mocha Dash Scripted REST API: Unregistered button: ' + serial_number);
 
-		answer = {'app' : 'DASH', 'status' : 'UNREG', 'id' : ''};
+		answer = {'app' : 'Mocha', 'status' : 'UNREG'};
+		httpStatusCode = 503;
 
 	} else {
-		gs.info('Mocha Dash Scripted REST API: Registered button ' + button.getDisplayValue());
+		gs.info('Mocha Dash Scripted REST API: Registered button ' + buttonGr.getDisplayValue());
 
-		var mu = Utils();
+
+		gs.info('>>>Mocha: click_type=' + click_type);
 		
-		var caseGr = mu.openCaseExists(button.serial_number);
-		
-		if (caseGr) {
-			mu.incrementClickCount(caseGr);
+		if (click_type == 'SINGLE') {
+			var caseGr = mu.openCaseExists(buttonGr);
+
+			if (caseGr) {
+				gs.info('>>>Mocha: case exists ' + caseGr.getDisplayValue());
+				mu.incrementClickCount(caseGr);
+				httpStatusCode = 200;
+			} else {
+				gs.info('>>>Mocha: no case - creating new one');
+				mu.createCase(buttonGr, click_type);
+				httpStatusCode = 201;
+			}
+
 		} else {
-			mu.creaseCase(button.serial_number, button_click_type);
+			gs.info('>>>Mocha: closing case');
+			mu.closeCase(buttonGr);
+			httpStatusCode = 200;
 		}
-		answer = {'app' : 'DASH', 'status' : 'OK', 'id' : id};
+		httpStatusBody = 'OK';
+		answer = {'app' : 'Mocha', 'status' : httpStatusBody};
 
 	}
 
+	response.setStatus(httpStatusCode);
 	response.setBody(answer);
 
 })(request, response);]]></operation_script>
@@ -67,7 +85,7 @@
         <sys_created_on>2018-09-08 14:38:02</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3b0aeaa7dbd02300d236b6d1ba961939</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Button press</sys_name>
         <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
         <sys_policy/>
@@ -75,7 +93,7 @@
         <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
         <sys_update_name>sys_ws_operation_3b0aeaa7dbd02300d236b6d1ba961939</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2018-09-08 14:38:02</sys_updated_on>
+        <sys_updated_on>2018-09-08 23:11:29</sys_updated_on>
         <web_service_definition display_value="Dash">6fc92e67dbd02300d236b6d1ba9619f8</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>
