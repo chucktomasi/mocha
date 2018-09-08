@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Button press</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	/*
+	 * Sample input:
+	 * { "serialNumber": "G030MD049095UCHW",
+	 *   "batteryVoltage": "1697mV",
+	 *	 "clickType": "DOUBLE"
+	 * }
+	 */
+
+	gs.info('Mocha Dash Scripted REST API : ' + JSON.stringify(request.body.data));
+
+	var serial_number = request.body.data.serialNumber;
+	var voltage = request.body.data.batteryVoltage;
+	var click_type = request.body.data.clickType;
+	// Convert voltage from string to number
+	var voltStr = voltage.replace('mV', '');
+	var voltInt = parseInt(voltStr, 10);
+	var answer = {};
+
+	// Validate the button is registered
+	var button = new GlideRecord('x_snc_mocha_button');
+
+	if (!button.get('serial_number', serial_number)) {
+		gs.error('Mocha Dash Scripted REST API: Unregistered button: ' + serial_number);
+
+		answer = {'app' : 'DASH', 'status' : 'UNREG', 'id' : ''};
+
+	} else {
+		gs.info('Mocha Dash Scripted REST API: Registered button ' + button.getDisplayValue());
+
+		var mu = Utils();
+		
+		var caseGr = mu.openCaseExists(button.serial_number);
+		
+		if (caseGr) {
+			mu.incrementClickCount(caseGr);
+		} else {
+			mu.creaseCase(button.serial_number, button_click_type);
+		}
+		answer = {'app' : 'DASH', 'status' : 'OK', 'id' : id};
+
+	}
+
+	response.setBody(answer);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_snc_mocha/dash</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-09-08 14:38:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3b0aeaa7dbd02300d236b6d1ba961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Button press</sys_name>
+        <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
+        <sys_update_name>sys_ws_operation_3b0aeaa7dbd02300d236b6d1ba961939</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2018-09-08 14:38:02</sys_updated_on>
+        <web_service_definition display_value="Dash">6fc92e67dbd02300d236b6d1ba9619f8</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_snc_mocha/dash</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>Dash</name>
+        <namespace>x_snc_mocha</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>dash</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-09-08 14:12:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6fc92e67dbd02300d236b6d1ba9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dash</sys_name>
+        <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
+        <sys_update_name>sys_ws_definition_6fc92e67dbd02300d236b6d1ba9619f8</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2018-09-08 14:12:41</sys_updated_on>
+    </sys_ws_definition>
+</record_update>
