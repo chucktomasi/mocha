@@ -14,7 +14,7 @@
         <mobile_title>Mocha Priority Lookups</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_snc_mocha_mocha_priority_lookup</name>
-        <order/>
+        <order>1200</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e9c8e87bdbd42300d236b6d1ba961955</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Mocha Priority Lookups</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
@@ -36,8 +36,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
         <sys_update_name>sys_app_module_e9c8e87bdbd42300d236b6d1ba961955</sys_update_name>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2018-09-08 23:27:12</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:56:31</sys_updated_on>
         <timeline_page/>
         <title>Mocha Priority Lookups</title>
         <uncancelable>false</uncancelable>

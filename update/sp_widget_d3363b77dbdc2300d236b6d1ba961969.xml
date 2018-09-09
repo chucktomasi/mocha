@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $http) {
+	/* widget controller */
+	var c = this;
+
+	$scope.sendResponse = function(clickType, serialNumber) {
+		console.log(clickType + '-->' + serialNumber);
+		var reqBody = {
+			"serialNumber": serialNumber,
+			"batteryVoltage": "1697mV",
+			"clickType": clickType
+		};
+
+		$http({
+			method : "POST",
+			url : "/api/x_snc_mocha/dash",
+			headers : {"Content-type" : "application/json"},
+			data : reqBody
+		}).then(function success(response) {
+			console.log('sendResponse(): success');
+			// $scope.data.eventList[eventIndex].response = response.data.result.value;
+		}, function failure(response) {
+			console.log('sendResponse(): failure');
+		});
+
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>dash_button</id>
+        <internal>false</internal>
+        <link/>
+        <name>Dash button</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>chuck.tomasi@snc</sys_created_by>
+        <sys_created_on>2018-09-09 14:24:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d3363b77dbdc2300d236b6d1ba961969</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Dash button</sys_name>
+        <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
+        <sys_update_name>sp_widget_d3363b77dbdc2300d236b6d1ba961969</sys_update_name>
+        <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+        <sys_updated_on>2018-09-09 14:30:14</sys_updated_on>
+        <template><![CDATA[<div>
+  <button class="btn btn-success" ng-click="sendResponse('SINGLE', 'G030MD049095UCHW');">Single</button>
+  <button class="btn btn-primary" ng-click="sendResponse('DOUBLE', 'G030MD049095UCHW');">Double</button>
+</div>]]></template>
+    </sp_widget>
+</record_update>

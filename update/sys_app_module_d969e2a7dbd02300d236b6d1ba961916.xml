@@ -14,7 +14,7 @@
         <mobile_title>Buttons</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_snc_mocha_button</name>
-        <order/>
+        <order>1100</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d969e2a7dbd02300d236b6d1ba961916</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Buttons</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
@@ -36,8 +36,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
         <sys_update_name>sys_app_module_d969e2a7dbd02300d236b6d1ba961916</sys_update_name>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2018-09-08 14:10:40</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:56:28</sys_updated_on>
         <timeline_page/>
         <title>Buttons</title>
         <uncancelable>false</uncancelable>
