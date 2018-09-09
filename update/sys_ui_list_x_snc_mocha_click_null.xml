@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_mocha_click" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_snc_mocha_click" element="NULL" name="x_snc_mocha_click" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">275e53bbdb5c2300d236b6d1ba96191b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-09 12:40:36</sys_created_on>
+            <sys_id>6f5e53bbdb5c2300d236b6d1ba9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-09 12:40:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>button</element>
+            <list_id display_value="x_snc_mocha_click" element="NULL" name="x_snc_mocha_click" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">275e53bbdb5c2300d236b6d1ba96191b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-09 12:40:36</sys_created_on>
+            <sys_id>ef5e53bbdb5c2300d236b6d1ba9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-09 12:40:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>click_type</element>
+            <list_id display_value="x_snc_mocha_click" element="NULL" name="x_snc_mocha_click" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">275e53bbdb5c2300d236b6d1ba96191b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-09 12:40:36</sys_created_on>
+            <sys_id>635e53bbdb5c2300d236b6d1ba9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-09 12:40:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>voltage</element>
+            <list_id display_value="x_snc_mocha_click" element="NULL" name="x_snc_mocha_click" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">275e53bbdb5c2300d236b6d1ba96191b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-09 12:40:36</sys_created_on>
+            <sys_id>e35e53bbdb5c2300d236b6d1ba9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-09 12:40:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_snc_mocha_click" element="NULL" name="x_snc_mocha_click" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">275e53bbdb5c2300d236b6d1ba96191b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-09 12:40:36</sys_created_on>
+            <sys_id>675e53bbdb5c2300d236b6d1ba9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-09 12:40:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_mocha_click</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-09 12:40:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>275e53bbdb5c2300d236b6d1ba96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_mocha_click</sys_name>
+            <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_mocha_click_null</sys_update_name>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-09 12:40:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

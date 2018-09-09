@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="parameter" label="parameter" language="en" table="var__m_sys_hub_action_output_4a1c633fdb9c2300d236b6d1ba96195f">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>parameter</element>
+            <help/>
+            <hint/>
+            <label>parameter</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_4a1c633fdb9c2300d236b6d1ba96195f</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>chuck.tomasi@snc</sys_created_by>
+            <sys_created_on>2018-09-09 13:40:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9e1c633fdb9c2300d236b6d1ba96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>parameter</sys_name>
+            <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4a1c633fdb9c2300d236b6d1ba96195f_parameter_en</sys_update_name>
+            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+            <sys_updated_on>2018-09-09 13:40:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

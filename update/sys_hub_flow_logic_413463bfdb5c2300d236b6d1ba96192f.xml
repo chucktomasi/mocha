@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0d3463bfdb5c2300d236b6d1ba96192d</block>
+        <comment/>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="Button Click">de40efbbdb5c2300d236b6d1ba9619b0</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-09-09 13:06:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>413463bfdb5c2300d236b6d1ba96192f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_413463bfdb5c2300d236b6d1ba96192f</sys_update_name>
+        <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:50:23</sys_updated_on>
+        <ui_id>d8d0f5bc-6918-4336-9d5c-34d5ecc6788a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=413463bfdb5c2300d236b6d1ba96192f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>413463bfdb5c2300d236b6d1ba96192f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-09-09 13:06:06</sys_created_on>
+        <sys_id>053463bfdb5c2300d236b6d1ba961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:06:06</sys_updated_on>
+        <value>Click type is Single</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>413463bfdb5c2300d236b6d1ba96192f</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-09-09 13:06:06</sys_created_on>
+        <sys_id>413463bfdb5c2300d236b6d1ba961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:06:06</sys_updated_on>
+        <value>{{Created_1.current.click_type}}=SINGLE</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>

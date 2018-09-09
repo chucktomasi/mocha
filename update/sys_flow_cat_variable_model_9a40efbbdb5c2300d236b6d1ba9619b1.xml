@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>de40efbbdb5c2300d236b6d1ba9619b0</id>
+        <name>Button Click</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-09-09 12:48:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9a40efbbdb5c2300d236b6d1ba9619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Button Click</sys_name>
+        <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_9a40efbbdb5c2300d236b6d1ba9619b1</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2018-09-09 12:48:59</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

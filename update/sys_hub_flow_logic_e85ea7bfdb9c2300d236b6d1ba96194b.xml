@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">cd3463bfdb5c2300d236b6d1ba96190a</block>
+        <comment/>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="Button Click">5c5ea7bfdb9c2300d236b6d1ba961917</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>d8d0f5bc-6918-4336-9d5c-34d5ecc6788a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi@snc</sys_created_by>
+        <sys_created_on>2018-09-09 13:50:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e85ea7bfdb9c2300d236b6d1ba96194b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_e85ea7bfdb9c2300d236b6d1ba96194b</sys_update_name>
+        <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:50:18</sys_updated_on>
+        <ui_id>d057ac12-f72c-4029-90d1-f26b77c658ae</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e85ea7bfdb9c2300d236b6d1ba96194b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e85ea7bfdb9c2300d236b6d1ba96194b</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi@snc</sys_created_by>
+        <sys_created_on>2018-09-09 13:50:18</sys_created_on>
+        <sys_id>605ea7bfdb9c2300d236b6d1ba96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:50:18</sys_updated_on>
+        <value>{{288e10e2-f30a-4761-888a-36353be8ce81.Count}}!=0</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>

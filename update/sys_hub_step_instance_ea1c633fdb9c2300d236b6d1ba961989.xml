@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Increment Value">1e1c633fdb9c2300d236b6d1ba96197f</action>
+        <cid>80f5a1f9-7be9-4927-93b5-b8f207193eed</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi@snc</sys_created_by>
+        <sys_created_on>2018-09-09 13:40:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ea1c633fdb9c2300d236b6d1ba961989</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
+        <sys_update_name>sys_hub_step_instance_ea1c633fdb9c2300d236b6d1ba961989</sys_update_name>
+        <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:40:36</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ea1c633fdb9c2300d236b6d1ba961989"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ea1c633fdb9c2300d236b6d1ba961989</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi@snc</sys_created_by>
+        <sys_created_on>2018-09-09 13:40:36</sys_created_on>
+        <sys_id>221c633fdb9c2300d236b6d1ba9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:40:36</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var n = parseInt(inputs.number, 10);
+  ++n;
+  outputs.number = n
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ea1c633fdb9c2300d236b6d1ba961989</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi@snc</sys_created_by>
+        <sys_created_on>2018-09-09 13:40:36</sys_created_on>
+        <sys_id>6e1c633fdb9c2300d236b6d1ba9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:40:36</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ea1c633fdb9c2300d236b6d1ba961989"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ea1c633fdb9c2300d236b6d1ba961989</id>
+        <sys_created_by>chuck.tomasi@snc</sys_created_by>
+        <sys_created_on>2018-09-09 13:40:36</sys_created_on>
+        <sys_id>2a1c633fdb9c2300d236b6d1ba9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:40:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number</field>
+        <id>ea1c633fdb9c2300d236b6d1ba961989</id>
+        <sys_created_by>chuck.tomasi@snc</sys_created_by>
+        <sys_created_on>2018-09-09 13:40:36</sys_created_on>
+        <sys_id>aa1c633fdb9c2300d236b6d1ba9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:40:36</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ea1c633fdb9c2300d236b6d1ba961989</table>
+        <value>{{action.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>ea1c633fdb9c2300d236b6d1ba961989</id>
+        <sys_created_by>chuck.tomasi@snc</sys_created_by>
+        <sys_created_on>2018-09-09 13:40:36</sys_created_on>
+        <sys_id>ea1c633fdb9c2300d236b6d1ba9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:40:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

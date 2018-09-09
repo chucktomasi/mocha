@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>button_click</internal_name>
+        <label_cache>[{"name":"0a06a0cb-31f4-446f-a966-0f831010ab17.parameter","label":"1.2.1.1➛Output number","type":"string","base_type":"string"},{"name":"2d969449-1781-4b50-96e9-ec9626ea7b4e.table_name","label":"2.2.1➛Case Table","reference":"x_snc_mocha_case","reference_display":"Case","type":"table_name","base_type":"table_name"},{"name":"2d969449-1781-4b50-96e9-ec9626ea7b4e.record","label":"2.2.1➛Case Record","reference":"x_snc_mocha_case","reference_display":"Case","type":"reference","base_type":"reference"},{"name":"34c6df21-75af-4539-bcf1-8af9f2ac843a.item","label":"2.2➛Case Record","reference":"x_snc_mocha_case","reference_display":"Case","type":"reference","base_type":"reference"},{"name":"Created_1.current.click_type","label":"Trigger➛Click Record➛Click type","reference":"","reference_display":"Click type","type":"choice","base_type":"choice","parent_table_name":"x_snc_mocha_click","column_name":"click_type"},{"name":"f4226393-017b-42ff-a1e2-27d5fe6f2d56.Record","label":"1.2➛Case Record","reference":"x_snc_mocha_case","reference_display":"Case","type":"reference","base_type":"reference"},{"name":"f4226393-017b-42ff-a1e2-27d5fe6f2d56.Table","label":"1.2➛Case Table","reference":"x_snc_mocha_case","reference_display":"Case","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.button","label":"Trigger➛Click Record➛Button","reference":"x_snc_mocha_button","reference_display":"Button","type":"reference","base_type":"reference","parent_table_name":"x_snc_mocha_click","column_name":"button"},{"name":"d62d0168-c0fb-4789-9b0e-c6bb3da5973b.record","label":"1.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"d62d0168-c0fb-4789-9b0e-c6bb3da5973b.table_name","label":"1.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.sys_created_on","label":"Trigger➛Click Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_mocha_click","column_name":"sys_created_on"},{"name":"288e10e2-f30a-4761-888a-36353be8ce81.Records","label":"1.1➛Case Records","reference":"x_snc_mocha_case","reference_display":"Case","type":"records","base_type":"records"},{"name":"288e10e2-f30a-4761-888a-36353be8ce81.Table","label":"1.1➛Case Table","reference":"x_snc_mocha_case","reference_display":"Case","type":"table_name","base_type":"table_name"},{"name":"288e10e2-f30a-4761-888a-36353be8ce81.Count","label":"1.1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"c71c6ac0-0ec8-45b9-bded-fef9c7436997.item","label":"1.2.1➛Case Record","reference":"x_snc_mocha_case","reference_display":"Case","type":"reference","base_type":"reference"},{"name":"ffa0161e-de83-46e8-ba4c-83da1ba3a1c7.record","label":"1.2.1.2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"ffa0161e-de83-46e8-ba4c-83da1ba3a1c7.table_name","label":"1.2.1.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"ff00b5bb-52f3-4942-8401-8ca4e19b56af.record","label":"1.3.1➛Case Record","reference":"x_snc_mocha_case","reference_display":"Case","type":"reference","base_type":"reference"},{"name":"ff00b5bb-52f3-4942-8401-8ca4e19b56af.table_name","label":"1.3.1➛Case Table","reference":"x_snc_mocha_case","reference_display":"Case","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.button.location","label":"Trigger➛Click Record➛Button➛Location","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"x_snc_mocha_button","column_name":"location"},{"name":"ff4bf0d4-e73e-44ee-a024-465a89fc6ddb.Records","label":"2.1➛Case Records","reference":"x_snc_mocha_case","reference_display":"Case","type":"records","base_type":"records"},{"name":"ff4bf0d4-e73e-44ee-a024-465a89fc6ddb.Table","label":"2.1➛Case Table","reference":"x_snc_mocha_case","reference_display":"Case","type":"table_name","base_type":"table_name"},{"name":"ff4bf0d4-e73e-44ee-a024-465a89fc6ddb.Count","label":"2.1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"Created_1.current.button.description","label":"Trigger➛Click Record➛Button➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_snc_mocha_button","column_name":"description"},{"name":"Created_1.current.button.location.name","label":"Trigger➛Click Record➛Button➛Location➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"name"},{"name":"11719525-0099-484b-9fe0-1400cf757cbe.output_number","label":"1.2.1.1➛Output number","reference_display":"Output number","type":"integer","base_type":"integer"},{"name":"c71c6ac0-0ec8-45b9-bded-fef9c7436997.item.click_count","label":"1.2.1➛Case Record➛Click count","reference":"","reference_display":"Click count","type":"integer","base_type":"integer","parent_table_name":"x_snc_mocha_case","column_name":"click_count"}]</label_cache>
+        <master>true</master>
+        <name>Button Click</name>
+        <outputs/>
+        <parent_flow display_value="Button Click">de40efbbdb5c2300d236b6d1ba9619b0</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>chuck.tomasi@snc</sys_created_by>
+        <sys_created_on>2018-09-09 13:50:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5c5ea7bfdb9c2300d236b6d1ba961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Button Click</sys_name>
+        <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_5c5ea7bfdb9c2300d236b6d1ba961917</sys_update_name>
+        <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
+        <sys_updated_on>2018-09-09 13:50:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=5c5ea7bfdb9c2300d236b6d1ba961917"/>
+</record_update>

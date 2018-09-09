@@ -98,6 +98,20 @@
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>case_updates</element>
+            <position>7</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-09 13:14:34</sys_created_on>
+            <sys_id>4926a7ffdb5c2300d236b6d1ba96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_mocha_mocha_priority_lookup" sys_domain="global" view="Default view">b22a64fbdbd42300d236b6d1ba9619ec</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-09 13:14:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
