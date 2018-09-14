@@ -3,62 +3,77 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>serial_number</element>
-            <list_id display_value="x_snc_mocha_button" element="NULL" name="x_snc_mocha_button" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4aff2333dbdc2300d236b6d1ba9619b6</list_id>
+            <list_id display_value="x_snc_mocha_button" element="NULL" name="x_snc_mocha_button" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4339f119db6ce300d236b6d1ba9619fe</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:57:30</sys_created_on>
-            <sys_id>06ff2333dbdc2300d236b6d1ba9619b7</sys_id>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-13 21:09:38</sys_created_on>
+            <sys_id>0f39f119db6ce300d236b6d1ba9619fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:57:30</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-13 21:09:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>description</element>
-            <list_id display_value="x_snc_mocha_button" element="NULL" name="x_snc_mocha_button" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4aff2333dbdc2300d236b6d1ba9619b6</list_id>
+            <list_id display_value="x_snc_mocha_button" element="NULL" name="x_snc_mocha_button" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4339f119db6ce300d236b6d1ba9619fe</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:57:30</sys_created_on>
-            <sys_id>8aff2333dbdc2300d236b6d1ba9619b7</sys_id>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-13 21:09:38</sys_created_on>
+            <sys_id>8339f119db6ce300d236b6d1ba9619ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:57:30</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-13 21:09:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>location</element>
-            <list_id display_value="x_snc_mocha_button" element="NULL" name="x_snc_mocha_button" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4aff2333dbdc2300d236b6d1ba9619b6</list_id>
+            <element>company</element>
+            <list_id display_value="x_snc_mocha_button" element="NULL" name="x_snc_mocha_button" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4339f119db6ce300d236b6d1ba9619fe</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:57:30</sys_created_on>
-            <sys_id>0eff2333dbdc2300d236b6d1ba9619b7</sys_id>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-13 21:09:38</sys_created_on>
+            <sys_id>0739f119db6ce300d236b6d1ba9619ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:57:30</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-13 21:09:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>active</element>
-            <list_id display_value="x_snc_mocha_button" element="NULL" name="x_snc_mocha_button" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4aff2333dbdc2300d236b6d1ba9619b6</list_id>
+            <element>location</element>
+            <list_id display_value="x_snc_mocha_button" element="NULL" name="x_snc_mocha_button" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4339f119db6ce300d236b6d1ba9619fe</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:57:30</sys_created_on>
-            <sys_id>8eff2333dbdc2300d236b6d1ba9619b7</sys_id>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-13 21:09:38</sys_created_on>
+            <sys_id>8739f119db6ce300d236b6d1ba9619ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:57:30</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-13 21:09:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_snc_mocha_button" element="NULL" name="x_snc_mocha_button" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4339f119db6ce300d236b6d1ba9619fe</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-13 21:09:38</sys_created_on>
+            <sys_id>0b39f119db6ce300d236b6d1ba9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-13 21:09:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -71,12 +86,12 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:57:30</sys_created_on>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-13 21:09:38</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4aff2333dbdc2300d236b6d1ba9619b6</sys_id>
+            <sys_id>4339f119db6ce300d236b6d1ba9619fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_mocha_button</sys_name>
             <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
@@ -84,8 +99,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_mocha_button_null</sys_update_name>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:57:30</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-13 21:09:38</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

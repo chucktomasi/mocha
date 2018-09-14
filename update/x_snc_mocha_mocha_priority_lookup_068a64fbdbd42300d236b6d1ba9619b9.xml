@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_mocha_mocha_priority_lookup">
     <x_snc_mocha_mocha_priority_lookup action="INSERT_OR_UPDATE">
         <active>true</active>
-        <button display_value="1st Floor Breakroom coffee pot">7eeb94b3dbd42300d236b6d1ba961976</button>
+        <button/>
         <click_count>4</click_count>
         <order>400</order>
         <priority>1</priority>
@@ -10,7 +10,7 @@
         <sys_created_on>2018-09-08 23:34:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>068a64fbdbd42300d236b6d1ba9619b9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>400</sys_name>
         <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
         <sys_policy/>
@@ -18,6 +18,6 @@
         <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
         <sys_update_name>x_snc_mocha_mocha_priority_lookup_068a64fbdbd42300d236b6d1ba9619b9</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2018-09-08 23:44:14</sys_updated_on>
+        <sys_updated_on>2018-09-14 01:42:17</sys_updated_on>
     </x_snc_mocha_mocha_priority_lookup>
 </record_update>

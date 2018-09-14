@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $location) {
+	/* widget controller */
+	var c = this;
+
+	$scope.go = function(item) {
+		$location.url('/sp?id=dash_button&company=' + item.sys_id);
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>dash_company_list</id>
+        <internal>false</internal>
+        <link/>
+        <name>Dash Company List</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+
+	data.list = [];
+	var count = new GlideAggregate('x_snc_mocha_button');
+	count.addAggregate('COUNT');
+	count.groupBy('company');
+	count.orderBy('company.name');
+	count.query();
+	
+	while (count.next()) { 
+
+		var obj = {};
+		
+		obj.name = count.company.getDisplayValue();
+		obj.sys_id = count.company.sys_id.toString();
+		obj.count = count.getAggregate('COUNT');
+		data.list.push(obj);
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-09-14 01:04:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ebfeeed5dbace300d236b6d1ba9619c3</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Dash Company List</sys_name>
+        <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
+        <sys_update_name>sp_widget_ebfeeed5dbace300d236b6d1ba9619c3</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2018-09-14 02:00:04</sys_updated_on>
+        <template><![CDATA[<div>
+  <center>
+    <div class="col-md-6 col-md-offset-3">
+      <h1>Choose a company</h1>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Company</th>
+            <th scope="col">Buttons</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="item in data.list" ng-click="go(item)">
+            <td>{{item.name}}</td>
+            <td>{{item.count}}</td>
+          </tr>
+        </tbody>
+      </table></div>
+  </center>
+</div>]]></template>
+    </sp_widget>
+</record_update>

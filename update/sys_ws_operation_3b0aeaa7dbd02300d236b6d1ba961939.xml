@@ -27,32 +27,32 @@
 	var answer = {};
 	var httpStatusCode = 201;
 	var httpStatusBody = 'Created';
-	
+
 	var buttonGr = new GlideRecord('x_snc_mocha_button');
 	buttonGr.addQuery('active', true);
 	buttonGr.addQuery('serial_number', serial_number);
 	buttonGr.query();
-	
-	// Validate the button is registered
+
+	// If the button isn't registered, createa  new one
 	if (!buttonGr.next()) {
-		gs.error('Mocha Dash Scripted REST API: Unregistered button: ' + serial_number);
 
-		answer = {'app' : 'Mocha', 'status' : 'UNREG'};
-		httpStatusCode = 503;
-		
-	} else {
-		// Create Click Record
-		var clickGr = new GlideRecord('x_snc_mocha_click');
-		clickGr.newRecord();
-		clickGr.button = buttonGr.getUniqueValue();
-		clickGr.click_type = click_type;
-		clickGr.voltage = voltInt;
-		clickGr.insert();
-		
-		httpStatusBody = 'OK';
-		answer = {'app' : 'Mocha', 'status' : httpStatusBody};
-
+		buttonGr.newRecord();
+		buttonGr.company.setDisplayValue('UnRegCo');
+		buttonGr.description = 'Unregistered Button: ' + serial_number;
+		buttonGr.serial_number = serial_number;
+		buttonGr.insert();
 	}
+
+	// Create Click Record
+	var clickGr = new GlideRecord('x_snc_mocha_click');
+	clickGr.newRecord();
+	clickGr.button = buttonGr.getUniqueValue();
+	clickGr.click_type = click_type;
+	clickGr.voltage = voltInt;
+	clickGr.insert();
+
+	httpStatusBody = 'OK';
+	answer = {'app' : 'Mocha', 'status' : httpStatusBody};
 
 	response.setStatus(httpStatusCode);
 	response.setBody(answer);
@@ -72,7 +72,7 @@
         <sys_created_on>2018-09-08 14:38:02</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3b0aeaa7dbd02300d236b6d1ba961939</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Button press</sys_name>
         <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
         <sys_policy/>
@@ -80,7 +80,7 @@
         <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
         <sys_update_name>sys_ws_operation_3b0aeaa7dbd02300d236b6d1ba961939</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2018-09-09 12:46:58</sys_updated_on>
+        <sys_updated_on>2018-09-14 01:52:12</sys_updated_on>
         <web_service_definition display_value="Dash">6fc92e67dbd02300d236b6d1ba9619f8</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

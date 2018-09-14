@@ -82,20 +82,21 @@
         <public>false</public>
         <roles/>
         <script><![CDATA[(function() {
-  /* populate the 'data' object */
-  /* e.g., data.table = $sp.getValue('table'); */
-
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	var company = $sp.getParameter('company');
 	data.buttonList = [];
 	// Get all active buttons
 	var buttonGr = new GlideRecord('x_snc_mocha_button');
 	buttonGr.addQuery('active', true);
+	buttonGr.addQuery('company', company);
 	buttonGr.query();
-	
+
 	while (buttonGr.next()) {
 		var obj = {};
 		obj.name = buttonGr.getDisplayValue();
 		obj.serial_number = buttonGr.getValue('serial_number');
-		
+
 		data.buttonList.push(obj);
 	}
 })();]]></script>
@@ -105,7 +106,7 @@
         <sys_created_on>2018-09-09 14:24:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>d3363b77dbdc2300d236b6d1ba961969</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_name>Dash button</sys_name>
         <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
         <sys_policy/>
@@ -113,12 +114,12 @@
         <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
         <sys_update_name>sp_widget_d3363b77dbdc2300d236b6d1ba961969</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2018-09-09 18:32:54</sys_updated_on>
+        <sys_updated_on>2018-09-14 01:38:11</sys_updated_on>
         <template><![CDATA[<div>
   <table width="100%">
     <tr ng-repeat="button in data.buttonList">
       <td align="center">
-        <img src="dash-button.png" width="50%" ng-click="singleClick(button.serial_number);" ng-dblclick="doubleClick(button.serial_number)" />
+        <img src="aws-iot-enterprise.png" height="162" width="360" ng-click="singleClick(button.serial_number);" ng-dblclick="doubleClick(button.serial_number)" />
         <div style="text-align:center; font-size: 32px;">
           {{button.name}}
         </div>
