@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>452602a3dba42b00d236b6d1ba961910</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company">
+    <core_company action="INSERT_OR_UPDATE">
+        <apple_icon/>
+        <banner_image/>
+        <banner_image_light/>
+        <banner_text/>
+        <city/>
+        <contact/>
+        <country>USA</country>
+        <customer>false</customer>
+        <discount/>
+        <fax_phone/>
+        <fiscal_year/>
+        <lat_long_error/>
+        <latitude/>
+        <longitude/>
+        <manufacturer>false</manufacturer>
+        <market_cap>0</market_cap>
+        <name>Krak Co</name>
+        <notes/>
+        <num_employees/>
+        <parent/>
+        <phone/>
+        <primary>false</primary>
+        <profits>0</profits>
+        <publicly_traded>false</publicly_traded>
+        <rank_tier/>
+        <revenue_per_year>0</revenue_per_year>
+        <state/>
+        <stock_price/>
+        <stock_symbol/>
+        <street/>
+        <sys_class_name>core_company</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-09-20 21:52:21</sys_created_on>
+        <sys_id>452602a3dba42b00d236b6d1ba961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2018-09-20 21:52:21</sys_updated_on>
+        <theme/>
+        <vendor>false</vendor>
+        <vendor_manager/>
+        <vendor_type/>
+        <website/>
+        <zip/>
+    </core_company>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-09-20 21:52:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>34360e63dba42b00d236b6d1ba9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Krak Co</sys_name>
+        <sys_package display_value="Mocha" source="x_snc_mocha">cae7aa23dbd02300d236b6d1ba961925</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mocha">cae7aa23dbd02300d236b6d1ba961925</sys_scope>
+        <sys_update_name>sys_metadata_link_34360e63dba42b00d236b6d1ba9619ee</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2018-09-20 21:52:36</sys_updated_on>
+        <tablename>core_company</tablename>
+    </sys_metadata_link>
+</record_update>
