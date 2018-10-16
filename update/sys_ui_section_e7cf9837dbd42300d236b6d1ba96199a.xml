@@ -3,154 +3,168 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:48:28</sys_created_on>
-            <sys_id>31ed6f7fdb9c2300d236b6d1ba961939</sys_id>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-22 17:14:03</sys_created_on>
+            <sys_id>7b999b0cdb386b00d236b6d1ba961913</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_mocha_case" sys_domain="global" view="Default view">e7cf9837dbd42300d236b6d1ba96199a</sys_ui_section>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:48:28</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-22 17:14:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>button</element>
             <position>1</position>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:48:28</sys_created_on>
-            <sys_id>b5ed6f7fdb9c2300d236b6d1ba961939</sys_id>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-22 17:14:03</sys_created_on>
+            <sys_id>33999b0cdb386b00d236b6d1ba961914</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_mocha_case" sys_domain="global" view="Default view">e7cf9837dbd42300d236b6d1ba96199a</sys_ui_section>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:48:28</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-22 17:14:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>location</element>
             <position>2</position>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:48:28</sys_created_on>
-            <sys_id>39ed6f7fdb9c2300d236b6d1ba961939</sys_id>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-22 17:14:03</sys_created_on>
+            <sys_id>b3999b0cdb386b00d236b6d1ba961914</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_mocha_case" sys_domain="global" view="Default view">e7cf9837dbd42300d236b6d1ba96199a</sys_ui_section>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:48:28</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-22 17:14:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>click_count</element>
+            <element>opened_by</element>
             <position>3</position>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:48:28</sys_created_on>
-            <sys_id>b9ed6f7fdb9c2300d236b6d1ba961939</sys_id>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-22 17:14:03</sys_created_on>
+            <sys_id>37999b0cdb386b00d236b6d1ba961914</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_mocha_case" sys_domain="global" view="Default view">e7cf9837dbd42300d236b6d1ba96199a</sys_ui_section>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:48:28</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-22 17:14:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>4</position>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:48:28</sys_created_on>
-            <sys_id>3ded6f7fdb9c2300d236b6d1ba961939</sys_id>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-22 17:14:03</sys_created_on>
+            <sys_id>b7999b0cdb386b00d236b6d1ba961914</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_mocha_case" sys_domain="global" view="Default view">e7cf9837dbd42300d236b6d1ba96199a</sys_ui_section>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:48:28</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-22 17:14:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
             <position>5</position>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:48:28</sys_created_on>
-            <sys_id>bded6f7fdb9c2300d236b6d1ba961939</sys_id>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-22 17:14:03</sys_created_on>
+            <sys_id>3b999b0cdb386b00d236b6d1ba961914</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_mocha_case" sys_domain="global" view="Default view">e7cf9837dbd42300d236b6d1ba96199a</sys_ui_section>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:48:28</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-22 17:14:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
             <position>6</position>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:48:28</sys_created_on>
-            <sys_id>31ed6f7fdb9c2300d236b6d1ba96193a</sys_id>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-22 17:14:03</sys_created_on>
+            <sys_id>bb999b0cdb386b00d236b6d1ba961914</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_mocha_case" sys_domain="global" view="Default view">e7cf9837dbd42300d236b6d1ba96199a</sys_ui_section>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:48:28</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-22 17:14:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>click_count</element>
+            <position>7</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-22 17:14:03</sys_created_on>
+            <sys_id>3f999b0cdb386b00d236b6d1ba961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_mocha_case" sys_domain="global" view="Default view">e7cf9837dbd42300d236b6d1ba96199a</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-22 17:14:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>7</position>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:48:28</sys_created_on>
-            <sys_id>b1ed6f7fdb9c2300d236b6d1ba96193a</sys_id>
+            <position>8</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-22 17:14:03</sys_created_on>
+            <sys_id>bf999b0cdb386b00d236b6d1ba961914</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_mocha_case" sys_domain="global" view="Default view">e7cf9837dbd42300d236b6d1ba96199a</sys_ui_section>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:48:28</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-22 17:14:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>8</position>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:48:28</sys_created_on>
-            <sys_id>35ed6f7fdb9c2300d236b6d1ba96193a</sys_id>
+            <position>9</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-22 17:14:03</sys_created_on>
+            <sys_id>00a99b0cdb386b00d236b6d1ba961915</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_mocha_case" sys_domain="global" view="Default view">e7cf9837dbd42300d236b6d1ba96199a</sys_ui_section>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:48:28</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-22 17:14:03</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>9</position>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:48:28</sys_created_on>
-            <sys_id>b5ed6f7fdb9c2300d236b6d1ba96193a</sys_id>
+            <position>10</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-22 17:14:03</sys_created_on>
+            <sys_id>80a99b0cdb386b00d236b6d1ba961915</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_mocha_case" sys_domain="global" view="Default view">e7cf9837dbd42300d236b6d1ba96199a</sys_ui_section>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:48:28</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-22 17:14:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>10</position>
-            <sys_created_by>chuck.tomasi@snc</sys_created_by>
-            <sys_created_on>2018-09-09 13:48:28</sys_created_on>
-            <sys_id>39ed6f7fdb9c2300d236b6d1ba96193a</sys_id>
+            <position>11</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-09-22 17:14:03</sys_created_on>
+            <sys_id>04a99b0cdb386b00d236b6d1ba961915</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_mocha_case" sys_domain="global" view="Default view">e7cf9837dbd42300d236b6d1ba96199a</sys_ui_section>
-            <sys_updated_by>chuck.tomasi@snc</sys_updated_by>
-            <sys_updated_on>2018-09-09 13:48:28</sys_updated_on>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-09-22 17:14:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
