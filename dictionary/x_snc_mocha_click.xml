@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Click" max_length="40" name="x_snc_mocha_click" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="Button" max_length="32" name="button" reference="x_snc_mocha_button" type="reference"/>
+        <element label="Button" max_length="32" name="button" reference="x_snc_mocha_button" reference_cascade_rule="cascade" type="reference"/>
         <element choice="1" label="Click type" max_length="40" name="click_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="SIngle" sequence="0" value="SINGLE"/>
+                <element inactive_on_update="false" label="Single" sequence="0" value="SINGLE"/>
                 <element inactive_on_update="false" label="Double" sequence="1" value="DOUBLE"/>
                 <element inactive_on_update="false" label="Long" sequence="2" value="LONG"/>
             </choice>

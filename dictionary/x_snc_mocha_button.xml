@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Button" max_length="40" name="x_snc_mocha_button" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element label="Company" max_length="32" name="company" reference="core_company" reference_qual="notesSTARTSWITHAWS^EQ" reference_qual_condition="notesSTARTSWITHAWS^EQ" type="reference"/>
         <element display="true" label="Description" max_length="100" name="description" type="string"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="Serial number" max_length="40" name="serial_number" type="string"/>
